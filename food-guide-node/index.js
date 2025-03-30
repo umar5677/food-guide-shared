@@ -9,7 +9,7 @@ const PORT = 3000;
 app.use(cors());
 app.use(express.json());
 
-const API_KEY = 'AIzaSyCDQq7OqxxxFz1N_4SSgFwuzzo00B01CR8EY';
+const API_KEY = '';
 
 // MySQL database connection
 const db = mysql.createConnection({
